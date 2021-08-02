@@ -9,7 +9,7 @@ namespace GroceryStore.Data
          public GroceryStoreContext(DbContextOptions<GroceryStoreContext> options)
             : base(options)
         {
-            //context.Database.EnsureCreated();
+            
         }
         public DbSet<Customer> Customers { get; set; }
 
