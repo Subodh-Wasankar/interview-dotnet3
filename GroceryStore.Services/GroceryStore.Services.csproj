@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\GroceryStore.Core.Models\GroceryStore.Core.Models.csproj" />
+    <ProjectReference Include="..\GroceryStore.Services.Contracts\GroceryStore.Services.Contracts.csproj" />
+    <ProjectReference Include="..\GroceryStore.Core\GroceryStore.Core.csproj" />
+    <ProjectReference Include="..\GroceryStore.Core.Contracts\GroceryStore.Core.Contracts.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+</Project>
